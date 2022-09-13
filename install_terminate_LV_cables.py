@@ -29,7 +29,7 @@ cards = url.find_element("xpath", "/html/body/div[1]/div[2]/ul/li[2]/a")
 cards.click()
 
 time.sleep(0.5)
-firstCard = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/table/tbody[2]/tr[1]/td[2]/a")
+firstCard = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/table/tbody[2]/tr[98]/td[2]/a")
 firstCard.click()
 
 
@@ -57,7 +57,7 @@ timer1Select = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/d
 timer1Select.click()
 
 
-# Card Fillout
+# Card Fillout - Install cables
 time.sleep(2)
 selectbutton1 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[3]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/input")
 selectbutton1.click()
@@ -86,8 +86,9 @@ selectbutton8.click()
 selectbutton9 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[3]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[11]/td[2]/input")
 selectbutton9.click()
 
-time.sleep(1)
+
 # Work Practices
+time.sleep(1)
 button1 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[4]/tbody/tr[1]/td/input")
 button1.click()
 
@@ -111,10 +112,31 @@ button7.click()
 
 
 
+# Supplementary Work
+supbutton1 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[6]/tbody/tr[1]/td/input")
+supbutton1.click()
+
+supbutton2 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[6]/tbody/tr[4]/td/input")
+supbutton2.click()
+
+supbutton3 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[6]/tbody/tr[6]/td/input")
+supbutton3.click()
+
+supbutton4 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[6]/tbody/tr[8]/td/input")
+supbutton4.click()
 
 
+# Off the Job training
 
+offjobDropdown = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[8]/tbody/tr/td/div[2]/table/tbody/tr/td[2]/table/tbody/tr/td/select")
+offjobDropdown .click()
 
+offjobSelect = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[8]/tbody/tr/td/div[2]/table/tbody/tr/td[2]/table/tbody/tr/td/select/option[9]")
+offjobSelect.click()
+
+# Submit
+savedraft = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[2]/input")
+savedraft.click()
 
 
 
