@@ -1,5 +1,6 @@
 from hashlib import new
 from select import select
+from tkinter import E
 from tkinter.tix import Select
 from selenium import webdriver
 import time
@@ -32,8 +33,11 @@ firstCard = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/table/tbo
 firstCard.click()
 
 
-                       
-                       
+time.sleep(2)
+expand = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/p/span[1]")
+expand.click()
 
-employer = url.find_element("xpath","html/body/div[1]/div[3]/div[2]/form/table[1]/tbody/tr[2]/td[2]/div[1]/select[2]");
-employer.select_By_Value("5579B67C-48AE-6626-BD98-88B5439A68B5");
+
+
+# Fault finding
+
