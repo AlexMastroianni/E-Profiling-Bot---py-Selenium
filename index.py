@@ -10,7 +10,7 @@ url.get("https://elogbook.eprofiling.com.au/index.cfm?event=editCard&cardID=&qua
 time.sleep(5)
 
 username = "al@dvineelectrics.com.au"
-password = "biddy230707"
+password = "password123"
 
 usernameInput = url.find_element("xpath", "/html/body/div[1]/div[3]/div[1]/table/tbody/tr[2]/td[1]/form/table/tbody/tr[1]/td[2]/input")
 usernameInput.send_keys(username)
