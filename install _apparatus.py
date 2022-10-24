@@ -28,8 +28,8 @@ time.sleep(2)
 cards = url.find_element("xpath", "/html/body/div[1]/div[2]/ul/li[2]/a")
 cards.click()
 
-time.sleep(1)
-firstCard = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/table/tbody[2]/tr[98]/td[2]/a")
+time.sleep(2)
+firstCard = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/table/tbody[2]/tr[50]/td[2]/a")
 firstCard.click()
 
 
@@ -42,7 +42,7 @@ supervisorSelect = url.find_element("xpath","//tbody//div[1]//select[2]//option[
 supervisorSelect.click()
 
 
-time.sleep(0.5)
+time.sleep(1)
 expand = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/p/span[1]")
 expand.click()
 
@@ -68,16 +68,16 @@ selectbutton2.click()
 selectbutton3 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[4]/td[2]/table/tbody/tr/td[3]/input")
 selectbutton3.click()
 
-selectbutton4 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[1]/td[1]/input")
+selectbutton4 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[2]/td[1]/input")
 selectbutton4.click()
 
-selectbutton5 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[13]/td[1]/input")
+selectbutton5 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[9]/td[1]/input")
 selectbutton5.click()
 
-selectbutton6 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[11]/td[2]/input")
+selectbutton6 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[8]/td[2]/input")
 selectbutton6.click()
 
-selectbutton7 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[6]/td[2]/input")
+selectbutton7 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[4]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[7]/td[2]/input")
 selectbutton7.click()
 
 # selectbutton8 = url.find_element("xpath", "/html/body/div[1]/div[3]/div[2]/form/div[1]/table[2]/tbody/tr[2]/td/table[1]/tbody/tr/td/div[3]/table/tbody/tr[2]/td/div/table/tbody/tr[5]/td[2]/table/tbody/tr[12]/td[1]/input")
